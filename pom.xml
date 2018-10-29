@@ -7,5 +7,10 @@
   <packaging>pom</packaging>
   <modules>
     <module>hdfs-demo</module>
+    <module>yarn-demo</module>
+    <module>hbase-demo</module>
+    <module>kafka-demo</module>
+    <module>storm-demo</module>
+    <module>redis-demo</module>
   </modules>
 </project>
