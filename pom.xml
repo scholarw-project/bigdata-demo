@@ -12,5 +12,6 @@
     <module>kafka-demo</module>
     <module>storm-demo</module>
     <module>redis-demo</module>
+    <module>mapreduce-demo</module>
   </modules>
 </project>
