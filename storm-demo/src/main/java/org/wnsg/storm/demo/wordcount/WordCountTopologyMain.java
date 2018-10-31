@@ -1,4 +1,4 @@
-package org.wnsg.storm.demo;
+package org.wnsg.storm.demo.wordcount;
 
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
@@ -6,9 +6,9 @@ import org.apache.storm.generated.AlreadyAliveException;
 import org.apache.storm.generated.InvalidTopologyException;
 import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
-import org.wnsg.storm.demo.bolts.MyCountBolt;
-import org.wnsg.storm.demo.bolts.MySplitBolt;
-import org.wnsg.storm.demo.spouts.MySpout;
+import org.wnsg.storm.demo.wordcount.bolts.MyCountBolt;
+import org.wnsg.storm.demo.wordcount.bolts.MySplitBolt;
+import org.wnsg.storm.demo.wordcount.spouts.MySpout;
 
 public class WordCountTopologyMain {
 

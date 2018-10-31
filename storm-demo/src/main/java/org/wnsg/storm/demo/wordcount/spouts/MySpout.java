@@ -1,4 +1,4 @@
-package org.wnsg.storm.demo.spouts;
+package org.wnsg.storm.demo.wordcount.spouts;
 
 import org.apache.storm.spout.SpoutOutputCollector;
 import org.apache.storm.task.TopologyContext;

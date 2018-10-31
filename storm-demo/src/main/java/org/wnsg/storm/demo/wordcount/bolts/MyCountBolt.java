@@ -1,4 +1,4 @@
-package org.wnsg.storm.demo.bolts;
+package org.wnsg.storm.demo.wordcount.bolts;
 
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
