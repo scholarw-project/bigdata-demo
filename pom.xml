@@ -14,5 +14,6 @@
     <module>redis-demo</module>
     <module>mapreduce-demo</module>
     <module>flink-demo</module>
+    <module>spark-demo</module>
   </modules>
 </project>
